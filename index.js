@@ -1,9 +1,5 @@
 
 /**
- * IN CLASS EXERCISE: stringy.js
- */
-
-/**
  * Given an input String, return its length.
  *
  * TIP: In JavaScript, how can we decipher the length of a String?
@@ -11,13 +7,20 @@
  */
 function length(string) {
     // YOUR CODE BELOW HERE //
-    
+
+    //strings have a property of length 
+     console.log(string.length)
 
     // YOUR CODE ABOVE HERE //
 }
+length('hello who')
+
+
 
 /**
  * Given an input String, return a new String forced to lowercase.
+ * 
+ * TIP: Is there a string method that can force a specifc case?
  */
 function toLowerCase(string) {
     // YOUR CODE BELOW HERE //
@@ -28,6 +31,8 @@ function toLowerCase(string) {
 
 /**
  * Given an input String, return a new String forced to uppercase.
+ * 
+ * TIP: Is there a string method that can force a specifc case?
  */
 function toUpperCase(string) {
     // YOUR CODE BELOW HERE //
